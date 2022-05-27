@@ -98,7 +98,7 @@ namespace Nest_Backend.Areas.Manage.Controllers
             p.Info = product.Info;
             p.Price = product.Price;
             p.Raiting = product.Raiting;
-            p.CategoriesId = product.CategoriesId;
+            //p.CategoriesId = product.CategoriesId;
             p.StockCount = product.StockCount;
             _context.SaveChanges();
             return RedirectToAction("Index");
